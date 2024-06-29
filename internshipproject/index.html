@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <!-- Metadata and linking external styles and scripts -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Hotel Booking | The Royal Crest</title>
+</head>
+
+<body>
+
+   <!-- Header section  -->
+
+  <header class="header">
+    <nav>
+      <div class="nav__bar">
+
+
+        <div class="logo">
+          <span></span>The Royal Crest. </div>
+
+           <!-- Menu button for mobile view -->
+
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#room">Rooms</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#testimonial">Testimonials</a></li>
+        <li><a href="#register">Enquire Now</a></li>
+      </ul>
+
+      
+      <button class="btn nav__btn">Book Now</button>
+    </nav>
+
+
+    <div class="section__container header__container" id="home">
+      <p>Simple - Unique - Friendly</p>
+      <h1>Make Yourself At Home<br />In Our <span>Hotel</span>.</h1>
+    </div>
+  </header>
+
+
+  <section class="section__container booking__container">
+    <form action="/" class="booking__form">
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill"></i></span>
+        <div>
+          <label for="check-in">CHECK-IN</label>
+          <input type="text" placeholder="Check In" />
+        </div>
+      </div>
+
+
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill"></i></span>
+        <div>
+          <label for="check-out">CHECK-OUT</label>
+          <input type="text" placeholder="Check Out" />
+        </div>
+      </div>
+
+
+      <div class="input__group">
+        <span><i class="ri-user-fill"></i></span>
+        <div>
+          <label for="guest">GUEST</label>
+          <input type="text" placeholder="Guest" />
+        </div>
+      </div>
+
+
+      <div class="input__group input__btn">
+        <button class="btn">CHECK NOW</button>
+      </div>
+    </form>
+  </section>
+
+    <!-- About section -->
+
+  <section class="section__container about__container" id="about">
+    <div class="about__image">
+    
+
+      <img src="about.jpg" alt="about" />
+      <img src="img1.jpg" alt="about1" />
+      <img src="img3.jpg" alt="about2" />
+      <img src="img2.jpg" alt="about3" />
+    </div>
+    <div class="about__content">
+      <p class="section__subheader">ABOUT US</p>
+      <h2 class="section__header">The Best Holidays Start Here!</h2>
+      <p class="section__description">
+        With a focus on quality accommodations, personalized experiences, and
+        seamless booking, our platform is dedicated to ensuring that every
+        traveler embarks on their dream holiday with confidence and
+        excitement.
+      </p>
+
+
+      <div class="about__btn">
+        <button class="btn">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Room section -->
+ 
+
+  <section class="section" id="room">
+    <p class="section__subheader">OUR LIVING ROOM</p>
+     <h2 id=heading">The Most Memorable Rest Time Starts Here.</h2> 
+    <div class="room__grid">
+
+       <!-- Room card 1 -->
+
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="room-1.jpg" alt="room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Deluxe Ocean View</h4>
+          <p>
+            Bask in luxury with breathtaking ocean views from your private
+            suite.
+          </p>
+          <h5>Starting from <span>$299/night</span></h5>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Room card 2 -->
+
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="room-2.jpg" alt="room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Executive Cityscape Room</h4>
+          <p>
+            Experience urban elegance and modern comfort in the heart of the
+            city.
+          </p>
+          <h5>Starting from <span>$199/night</span></h5>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Room card 3 -->
+
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="room-3.jpg" alt="room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Family Garden Retreat</h4>
+          <p>
+            Spacious and inviting, perfect for creating cherished memories
+            with loved ones.
+          </p>
+          <h5>Starting from <span>$249/night</span></h5>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Services section -->
+
+  <section class="service" id="service">
+    <div class="section__container service__container">
+      <div class="service__content">
+        <p class="section__subheader">SERVICES</p>
+        <h2 class="section__header">Strive Only For The Best.</h2>
+        <ul class="service__list">
+          <li>
+            <span><i class="ri-shield-star-line"></i></span>
+            High Class Security
+          </li>
+          <li>
+            <span><i class="ri-24-hours-line"></i></span>
+            24 Hours Room Service
+          </li>
+          <li>
+            <span><i class="ri-headphone-line"></i></span>
+            Conference Room
+          </li>
+          <li>
+            <span><i class="ri-map-2-line"></i></span>
+            Tourist Guide Support
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+   <!-- Banner section with statistics -->
+
+  <section class="section__container banner__container">
+    <div class="banner__content">
+      <div class="banner__card">
+        <h4>25+</h4>
+        <p>Properties Available</p>
+      </div>
+      <div class="banner__card">
+        <h4>350+</h4>
+        <p>Bookings Completed</p>
+      </div>
+      <div class="banner__card">
+        <h4>600+</h4>
+        <p>Happy Customers</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial section  -->
+
+  <section class="section features text-center" aria-label="features" id="testimonial">
+    <div class="container">
+
+      <p class="section-subtitle label-2"></p>
+
+      <h2 class="headline-1 section-title">What our Customers say</h2>
+
+      <ul class="grid-list">
+
+        <!-- Testimonial 1 -->
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <img src="t1.jpg" width="100" height="80" loading="lazy" alt="icon">
+              
+            </div>
+
+
+
+            <p class="label-1 card-text">"Great food and service. Long time neighborhood restaurant and Indian
+              tradition."<br>-Rita H</p>
+
+          </div>
+          <button class="read-more-btn">Read More</button>
+        </li>
+
+<!-- Testimonial 2 -->
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <img src="t2.jpg" width="100" height="80" loading="lazy" alt="icon">
+            </div>
+            <p class="label-1 card-text">"We attended a holiday banquet here this evening. The banquet room is decorated
+              very nicely for the Christmas season."<br>-Sunaina</p>
+              
+          </div>
+          <button class="read-more-btn">Read More</button>
+        </li>
+        
+
+<!-- Testimonial 3 -->
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <img src="t3.jpg" width="100" height="80" loading="lazy" alt="icon">
+            </div>
+
+
+            <p class="label-1 card-text">"The service was great and the food was excellent. This was my first time to
+              visit this restaurant, but it will not be my last!"
+
+              <br>-Sherry S
+            </p>
+
+          </div>
+          <button class="read-more-btn">Read More</button>
+        </li>
+
+<!-- Testimonial 4 -->
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <img src="t4.jpg" width="100" height="80" loading="lazy" alt="icon">
+            </div>
+
+
+            <p class="label-1 card-text">"We had both of our sons’ wedding rehearsal dinners at Pietros. It was all very
+              nice, and the owners were very helpful. Great food - very nice people !!"<br>
+
+              -Mary </p>
+
+
+          </div>
+          <button class="read-more-btn">Read More</button>
+        </li>
+
+        <!-- Testimonial 5 -->
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <img src="t5.jpg" width="100" height="80" loading="lazy" alt="icon">
+            </div>
+
+
+            <p class="label-1 card-text">"I used to live in CP and visited Foodday often. Now that I live three hours
+              away I hardly ever get to go. But this past week I was in CP and of course stopped in."<br>-Amandeep</p>
+
+          </div>
+          <button class="read-more-btn">Read More</button>
+        </li>
+
+        <!-- Testimonial 6 -->
+
+        <li class="feature-item">
+          <div class="feature-card">
+
+            <div class="card-icon">
+              <img src="t6.jpg" width="100" height="80" loading="lazy" alt="icon">
+            </div>
+
+
+
+            <p class="label-1 card-text">"We told the waitress that we came from Peoria and the owner himself delivered
+              us free toasted ravs for coming back. He is such a nice man and the food is top notch and very reasonably
+              priced!"<br>-Sarah</p>
+
+          </div>
+          <button class="read-more-btn">Read More</button>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Registeration section -->
+  <section id="register" class="contant">
+    <div class="main-text ">
+
+      <h2>Room Booking Enquiry Form</h2>
+    </div>
+    <form action="#">
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Last Name">
+      <input type="text" placeholder="Your Email">
+      <input type="text" placeholder="Phone Number">
+      <textarea name="" id="" cols="10" rows="5" placeholder="Customer Enquiry"></textarea>
+      <div class="btn-box formBtn">
+        <button type="submit" class="btn">Submit</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- footer section  -->
+
+  <footer>
+    <p>Copyright © 2024 Payal Dabas | Hotel Booking | The Royal Crest. All rights 
+      <br>contact us at: <a href="mailto:theroyalcrest200098@gmail.com">theroyalcrest200098@gmail.com</a>
+      <br>Phone: <a href="tel:6666677789">6666677789</a>
+      <br>Visit us at: <a href="http://www.theroyalcrest.com">www.theroyalcrest.com</a>
+      </p>
+    
+    
+
+</footer>
+   
+     
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
